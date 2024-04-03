@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0E1C3C;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0B142A;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  background-color: #CACCD2;
+  padding: 1rem;
+  border-radius: 13px;
+}
+
+table th {
+  background-color: #0E1C3C;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 10px;
+}
+
+.search_button {
+  width: 20%;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#planetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+
+}
+
+#infoPlaneta {
+  background-color: #D8D5D9;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 13px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

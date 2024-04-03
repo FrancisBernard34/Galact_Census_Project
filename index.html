@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Censo Galático</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://imgs.search.brave.com/4_1pPNeTMCY_vMaVB3DoJy_kTzrJpykKRGdXtF7ccqg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvc3Rhcl93YXJz/X2xvZ28vc3Rhcl93/YXJzX2xvZ29fUE5H/MzQucG5n"
+        alt="star wars logo"
+      />
+    </header>
+    <div class="container">
+      <div>
+        <input type="text" id="buscaPlaneta" placeholder="Buscar planeta..." />
+        <button class="search_button" onclick="buscarPlanetaPorNome()">
+          Buscar
+        </button>
+      </div>
+
+      <div id="planetas"></div>
+      <div id="infoPlaneta"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
